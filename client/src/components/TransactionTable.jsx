@@ -21,7 +21,7 @@ export default function TransactionTable({ data, loading, error }) {
               <Th>Sr. No</Th>
               <Th>Date</Th>
               <Th>Deposit</Th>
-              <Th>Withdrawl</Th>
+              <Th>Withdrawal</Th>
               <Th>Balance</Th>
             </Tr>
           </Thead>

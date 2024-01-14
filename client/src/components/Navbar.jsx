@@ -84,7 +84,7 @@ export default function Navbar() {
       >
         <Link to="/">
           <Text fontSize={"2xl"} fontWeight={"bold"} _hover={{transform:"scale(1.1)"}}>
-            Apna Bank
+            Iponaryo wallet
           </Text>
         </Link>
       </HStack>
@@ -117,7 +117,7 @@ export default function Navbar() {
         fontWeight={"bold"}
         display={{ base: "block", sm: "block", md: "block", lg: "none" }}
       >
-        Apna Bank
+        Iponaryo Wallet
       </Text>
       <Button
         ref={btnRef}
@@ -137,7 +137,7 @@ export default function Navbar() {
         <DrawerOverlay />
         <DrawerContent>
           <DrawerCloseButton />
-          <DrawerHeader>Apna Bank</DrawerHeader>
+          <DrawerHeader>Iponaryo Wallet</DrawerHeader>
 
           <DrawerBody>
             <VStack>
